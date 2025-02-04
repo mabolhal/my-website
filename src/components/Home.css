@@ -1,0 +1,55 @@
+.arrows path {
+    animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+}
+
+.arrows {
+    display: block;
+    margin: 0 auto; /* Center horizontally */
+    position: relative;
+    bottom: 0;
+    height: 58px;
+    left: 50%;
+    margin-left: -15px;
+    margin-top: 20px;
+    width: 30px;
+}
+
+.arrows .a1 {
+	animation-delay: -1s;
+	-webkit-animation-delay: -1s;
+}
+
+.arrows .a2 {
+	animation-delay: -.5s;
+	-webkit-animation-delay: -.5s;
+}
+
+.arrows .a2 {
+	animation-delay: -.35s;
+	-webkit-animation-delay: -.35s;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
+}
+
+@-webkit-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
+}
