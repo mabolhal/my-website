@@ -12,6 +12,7 @@ import  Projects  from './components/Projects';
 import { Center } from '@chakra-ui/react';
 import Footer from './components/Footer';
 import Project from './pages/Project/Project';
+import ProjectsPage from './components/ProjectsPage';
 // my stuff
 // function App() {
 //   return (
@@ -39,11 +40,10 @@ function App() {
   return (
     <>
     <div className='App'>
-    {/* <Routes> */}
-            {/* <Route index path='/' element={<Home />} /> */}
-            {/* <Route path='/projects' element={<ProjectsPage />} /> */}
-            {/* <Route path='/projects/:id' element={<Project />} />  */}
-        {/* </Routes> */}
+      <Routes> 
+            <Route index path='/aboutme' element={<Aboutme />} />
+            <Route path='/projects' element={<ProjectsPage />} />
+      </Routes>
       {/* <Center> */}
       <Navbar />
       <Home />

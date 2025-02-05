@@ -1,6 +1,6 @@
 import { Typewriter } from "react-simple-typewriter";
 import { Flex, Box, HStack, Text, Image, Center } from "@chakra-ui/react";
-import  Navbar  from "./Navbar";
+import { Element } from "react-scroll";
 
 const user = {
     name: 'Mahyar Abolhallaj',
@@ -81,6 +81,7 @@ const HomePageWhole = () => {
 
 export const Home = () => {
     return (
+      <Element name='home'>
         <div className='Home'>
 <HomePageWhole />
         {/* <HStack>
@@ -125,5 +126,6 @@ export const Home = () => {
 
 
       </div>
+      </Element>
     );
 };

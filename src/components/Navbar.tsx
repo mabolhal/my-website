@@ -1,34 +1,3 @@
-// import React from "react";
-// import { Box, Flex, HStack, Link, Text } from "@chakra-ui/react";
-
-
-// const Links = ['About me', 'Projects']
-// const Navbar = () => {
-//   return (
-//     <Box bg="teal.500" px={4}>
-//       <Flex h={16} alignItems="center" justifyContent="space-between">
-//         <Text fontSize="lg" fontWeight="bold.100" color="white">
-//           Mahyar Abolhallaj
-//         </Text>
-//         <HStack spacing={8}>
-//           <Link href="#home" fontSize="lg" color="white" _hover={{ color: "teal.100" }}>
-//             Home
-//           </Link>
-//           <Link href="#about" fontSize="lg" color="white" _hover={{ color: "teal.200" }}>
-//             About Me
-//           </Link>
-//           <Link href="#projects" fontSize="lg" color="white" _hover={{ color: "teal.200" }}>
-//             Projects
-//           </Link>
-
-//         </HStack>
-//       </Flex>
-//     </Box>
-//   );
-// };
-
-// export default Navbar;
-
 import { ReactNode, FC, useEffect, useRef } from 'react'
 import {
     Box,

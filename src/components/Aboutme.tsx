@@ -11,7 +11,7 @@ import {
     Center,
     Link,
 } from '@chakra-ui/react'
-// import { Element } from 'react-scroll'
+import { Element } from 'react-scroll'
 import { motion } from 'framer-motion'
 // import Fade from 'react-reveal/Fade'
 // import headshot from '../../media/headshot.jpg'
@@ -19,7 +19,7 @@ import { motion } from 'framer-motion'
 const Aboutme: FC = () => {
     return (
         <>
-        {/* // <Element name='aboutme'> */}
+         <Element name='aboutme'>
             <Container maxW={'5xl'} p={6.75} mt={[20, 10]}>
                 <VStack spacing={8}>
                     {/* <Fade> */}
@@ -120,7 +120,7 @@ const Aboutme: FC = () => {
                     </Stack>
                 </VStack>
             </Container>
-        {/* </Element> */}
+        </Element>
         </>
     )
 }

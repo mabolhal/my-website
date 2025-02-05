@@ -45,9 +45,9 @@ const Footer: FC = () => {
                     <IconButton
                         colorScheme='teal'
                         variant='outline'
-                        // onClick={() => {
-                        //     scroll.scrollToTop({ duration: 350 })
-                        // }}
+                        onClick={() => {
+                            window.scrollTo({ behavior: 'smooth', top: 0 })
+                        }}
                         icon={<ChevronUpIcon fontSize={20} />}
                         aria-label='Scroll to top'
                         borderRadius={'full'}

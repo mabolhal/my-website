@@ -9,7 +9,7 @@ import {
     useMediaQuery,
 } from '@chakra-ui/react'
 import ProjectCard from './ProjectCard.tsx'
-// import { Element } from 'react-scroll'
+import { Element } from 'react-scroll'
 // import Fade from 'react-reveal/Fade'
 // import { motion } from 'framer-motion'
 import LinkIconButton from './LinkIconButton.tsx'
@@ -27,7 +27,7 @@ const Projects: FC = () => {
     //     animate={{ opacity: 1 }} // Animate to 1 opacity (fully visible)
     //     transition={{ duration: 2 }} // Animation duration (2 seconds)
     // >
-        // {/* <Element name='projects'> */}
+         <Element name='projects'> 
             <Container
                 maxW={'10xl'}
                 p={6.75}
@@ -64,7 +64,7 @@ const Projects: FC = () => {
                     </Wrap>
                 </VStack>
             </Container>
-        // {/* </Element> */}
+        </Element>
         // </motion.div>
     )
 }
