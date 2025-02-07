@@ -13,6 +13,7 @@ import { Center } from '@chakra-ui/react';
 import Footer from './components/Footer';
 import Project from './pages/Project/Project';
 import ProjectsPage from './components/ProjectsPage';
+import Background from './components/Background';
 // my stuff
 // function App() {
 //   return (
@@ -51,6 +52,7 @@ function App() {
       <Aboutme />
       <Projects />
       <Footer />
+      <Background />
     </div>
     </>
   );

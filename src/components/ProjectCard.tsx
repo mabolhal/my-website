@@ -82,7 +82,7 @@ const ProjectCard: FC<ProjectCardProps> = props => {
                     <HStack>{props.links}</HStack>
                 </Flex>
                 <HStack>{props.tags}</HStack>
-                <Text color={'gray.500'}>{props.description}</Text>
+                <Text color={'gray.500'} textAlign={'left'}>{props.description}</Text>
                 <Box>
                     <Link
                         href={`#/projects/${props.id}`}

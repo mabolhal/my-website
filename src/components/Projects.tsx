@@ -35,8 +35,8 @@ const Projects: FC = () => {
           {/* </Fade> */}
           <Wrap spacing={0} justify="center">
             {projectData.slice(0, isMobile ? 6 : 3).map((data) => (
-              <WrapItem p={5}>
-                <ProjectCard
+              <WrapItem p={5} width={"75%"}>
+                <ProjectCard /*align={"left"}*/
                   name={data["name"] || ""}
                   type={""}
                   id={data["id"] || ""}

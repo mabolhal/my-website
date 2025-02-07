@@ -26,34 +26,28 @@ export const projectData: ProjectT[] = [
         tags: [<PythonBadge />, <BSLibBadge />, <SciKitLibBadge />],
         imageSrc: '/petpal.png',
         description:
-            'A pet adoption platform for animal shelters and prospective adopters featuring an admin dashboard, a customized application process, a REST API, and a frontend built with Tailwind.',
-        links: [
+            'Trained Linear Regression model to categorize comment sentiment, with comments scraped from Reddit’s r/rpdr community + simple web UI',
+                    links: [
             {
-                link: 'https://github.com/leowrites/PetPal',
+                link: 'https://github.com/mabolhal/maythebestwomanwin',
                 icon: <FiGithub />,
             },
         ],
-        headerLink: 'https://github.com/leowrites/PetPal',
+        headerLink: 'https://github.com/mabolhal/maythebestwomanwin',
     },
     {
-        name: 'Save this Week',
+        name: 'Save this Week (coming soon)',
         id: 'stw',
         type: 'Web app',
-        tagline: 'Suggests places to visit tailored using your preferences',
+        tagline: '',
         tags: [
             <ReactBadge />,
             <TypescriptBadge />,
             <ChakraLibBadge />
         ],
-        imageSrc: '/street-savvy.jpg',
+        imageSrc: '',
         description:
-            'A web app that suggests places to visit in Toronto based on your preferences using a custom recommendation engine and data from the Google Places API. Submitted to UofTHacks X.',
-        links: [
-            {
-                link: '',
-                icon: <FiGithub />,
-            },
-        ],
+            'AI Agent that queriesweekly grocery flyers (Flipp) based on user prompt; powered by LLM model',
         headerLink: '',
     }
 ]

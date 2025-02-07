@@ -47,7 +47,8 @@ const Aboutme: FC = () => {
                                 <Flex>
                                     <Center p={4}>👋🏼</Center>
                                     <Text>
-                                        Hi, I'm Mahyar, a software developer with around 5 years of experience building <b> web and cloud </b> applications 
+                                        Hi, I'm Mahyar, a software developer with around 5 years of experience building <b> web and cloud </b> applications. I'm currently exploring
+                                        the world of <b>AI</b> and <b>AI Agents</b>
                                     </Text>
                                 </Flex>
                             
@@ -56,7 +57,8 @@ const Aboutme: FC = () => {
                                 <Flex>
                                     <Center p={4}>🎓</Center>
                                     <Text>
-                                        I graduated from the University of Waterloo with Bachelor's of Applied Science (BASc) in Chemical Engineering
+                                        I graduated from the University of Waterloo with Bachelor's of Applied Science (BASc) in Chemical Engineering. I self-taught 
+                                        most of the current technology stacks 
                                     </Text>
                                 </Flex>
                             {/* </Fade> */}
@@ -64,12 +66,8 @@ const Aboutme: FC = () => {
                                 <Flex>
                                     <Center p={4}>👨🏻‍💻</Center>
                                     <Text>
-                                        I am currently a <b>Software Developer at theScore</b> and I have previously held a position as a{' '}
-                                        <b>
-                                            Software Engineering Intern at
-                                            NerveX
-                                        </b>{' '}
-                                        working in full-stack development. I also have experience as a developer at various student organizations, including <b>UofT Blueprint, UTMIST,</b> and <b>UofT AI</b>.
+                                        I worked at Mindgeek as a Cloud Software Developer; building batch and continuous processing data pipelines in PySpark & Pandas (Python), Beam (Java). 
+                                        I also built deployment pipelines (CICD) to maximize service availability. 
                                     </Text>
                                 </Flex>
                             {/* </Fade> */}
@@ -79,11 +77,11 @@ const Aboutme: FC = () => {
                                     <Text>
                                         I'm experienced in full-stack web
                                         development - particularly with{' '}
-                                        <b>Typescript</b> and <b>Python</b>.{' '}
+                                        <b>Python</b> and <b>Typescript</b>.{' '}
                                         <b>ReactJS</b> is my frontend framework
                                         of choice and I've worked in backend
                                         with{' '}
-                                        <b>NodeJS, .NET Core, Java,</b> and <b>Python</b>.
+                                        <b>Java</b> and <b>Python</b>.
                                     </Text>
                                 </Flex>
                             {/* </Fade> */}
@@ -91,27 +89,8 @@ const Aboutme: FC = () => {
                                 <Flex>
                                     <Center p={4}>🧠</Center>
                                     <Text>
-                                        In addition to Software Engineering, I
-                                        am also interested in the confluence of
-                                        artificial intelligence and cognitive
-                                        science, as well as photography! Check
-                                        out my&nbsp;
-                                        <Link
-                                            href=''
-                                            isExternal
-                                            fontWeight={'semibold'}
-                                            borderBottom={
-                                                '2px solid rgb(154, 228, 217)'
-                                            }
-                                            transition={'0.2s'}
-                                            _hover={{
-                                                textDecor: 'none',
-                                                opacity: 0.9,
-                                            }}
-                                        >
-                                            photography portfolio to learn more
-                                            about my creative work.
-                                        </Link>
+                                        I enjoy working on an array of different projects; related to working with LLMs. Additionally 
+                                        I've worked on some projects on my GitHub page. 
                                     </Text>
                                 </Flex>
                                 </motion.div>
