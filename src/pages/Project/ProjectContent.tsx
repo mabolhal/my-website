@@ -17,7 +17,7 @@ import {
     BreadcrumbLink,
 } from '@chakra-ui/react'
 
-import { ProjectT } from '../../data/types.ts'
+import { ProjectT } from '../../data/types'
 import { FiGithub } from 'react-icons/fi'
 // import MarkdownRender from '../../data/MarkdownRender.tsx'
 import { ChevronRightIcon } from '@chakra-ui/icons'

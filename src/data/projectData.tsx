@@ -13,7 +13,7 @@ import {
     BSLibBadge,
     ChakraLibBadge,
     SciKitLibBadge
-} from '../components/Projects/TechBadges.tsx'
+} from '../components/Projects/TechBadges'
 import { FiGithub, FiLink } from 'react-icons/fi'
 import { ProjectT } from './types'
 

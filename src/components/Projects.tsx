@@ -8,12 +8,12 @@ import {
   Button,
   useMediaQuery,
 } from "@chakra-ui/react";
-import ProjectCard from "./ProjectCard.tsx";
+import ProjectCard from "./ProjectCard";
 import { Element } from "react-scroll";
 // import Fade from 'react-reveal/Fade'
 // import { motion } from 'framer-motion'
-import LinkIconButton from "./LinkIconButton.tsx";
-import { projectData } from "../data/projectData.tsx";
+import LinkIconButton from "./LinkIconButton";
+import { projectData } from "../data/projectData";
 import { Link } from "react-router-dom";
 // const Scroll = require('react-scroll')
 // const scroll = Scroll.animateScroll

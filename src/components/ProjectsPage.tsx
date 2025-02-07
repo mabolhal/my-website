@@ -7,9 +7,9 @@ import {
     WrapItem,
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
-import { projectData } from '../data/projectData.tsx'
-import ProjectCard from './ProjectCard.tsx'
-import LinkIconButton from './LinkIconButton.tsx'
+import { projectData } from '../data/projectData'
+import ProjectCard from './ProjectCard'
+import LinkIconButton from './LinkIconButton'
 // import { ColorModeSwitcher } from '../../ColorModeSwitcher'
 // import BackButton from './BackButton.tsx'
 

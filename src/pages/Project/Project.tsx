@@ -1,9 +1,9 @@
 import { useParams } from 'react-router-dom'
-import { projectData as allProjectData } from '../../data/projectData.tsx'
-import { ProjectT } from '../../data/types.ts'
+import { projectData as allProjectData } from '../../data/projectData'
+import { ProjectT } from '../../data/types'
 import { useEffect, useState } from 'react'
 import { Center, Text } from '@chakra-ui/react'
-import ProjectContent from './ProjectContent.tsx'
+import ProjectContent from './ProjectContent'
 
 const Project = () => {
     const { id } = useParams()
