@@ -12,7 +12,8 @@ import {
     TypescriptBadge,
     BSLibBadge,
     ChakraLibBadge,
-    SciKitLibBadge
+    SciKitLibBadge,
+    OpenAILibBadge
 } from '../components/Projects/TechBadges'
 import { FiGithub, FiLink } from 'react-icons/fi'
 import { ProjectT } from './types'
@@ -41,9 +42,10 @@ export const projectData: ProjectT[] = [
         type: 'Web app',
         tagline: '',
         tags: [
-            <ReactBadge />,
+            <PythonBadge />,
             <TypescriptBadge />,
-            <ChakraLibBadge />
+            <ChakraLibBadge />,
+            <OpenAILibBadge />
         ],
         imageSrc: '',
         description:

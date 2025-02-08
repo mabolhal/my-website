@@ -41,7 +41,15 @@ export const DjangoBadge = () => {
 }
 
 export const TypescriptBadge = () => {
-    return <Badge colorScheme={'blue'}>Typescript</Badge>
+    return <Badge colorScheme={'orange'}>Typescript</Badge>
+}
+
+export const OpenAILibBadge = () => {
+    return (
+        <Badge my="1" fontSize="0.6em" variant="solid"  colorScheme="green">
+            Open AI
+        </Badge>
+    )
 }
 
 export const BSLibBadge = () => {

@@ -76,7 +76,7 @@ const HomePageWhole = () => {
             boxSize="400px"
             borderRadius="full"
             objectFit="cover"
-            src="src\IMG_1173.JPG"
+            src="/IMG_1173.JPG"
           />
         </Box>
       </HStack>

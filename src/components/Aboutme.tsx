@@ -57,8 +57,7 @@ const Aboutme: FC = () => {
                                 <Flex>
                                     <Center p={4}>🎓</Center>
                                     <Text>
-                                        I graduated from the University of Waterloo with Bachelor's of Applied Science (BASc) in Chemical Engineering. I self-taught 
-                                        most of the current technology stacks 
+                                    I hold a <b> Bachelor  of Applied Science (BASc) </b> in Chemical Engineering from the <b> University of Waterloo </b> and have independently learned many modern technology stacks.
                                     </Text>
                                 </Flex>
                             {/* </Fade> */}
@@ -66,8 +65,7 @@ const Aboutme: FC = () => {
                                 <Flex>
                                     <Center p={4}>👨🏻‍💻</Center>
                                     <Text>
-                                        I worked at Mindgeek as a Cloud Software Developer; building batch and continuous processing data pipelines in PySpark & Pandas (Python), Beam (Java). 
-                                        I also built deployment pipelines (CICD) to maximize service availability. 
+                                    I worked at Mindgeek as a <b>Cloud Software Developer</b>; building <b>batch</b> and <b>continuous processing</b> data pipelines in <b>PySpark</b>, <b>Beam</b> (<b>Java</b>) & <b>Pandas</b> (<b>Python</b>). I also built deployment pipelines (<b>CICD</b>) to maximize service availability.
                                     </Text>
                                 </Flex>
                             {/* </Fade> */}
@@ -75,13 +73,7 @@ const Aboutme: FC = () => {
                                 <Flex>
                                     <Center p={4}>🚀</Center>
                                     <Text>
-                                        I'm experienced in full-stack web
-                                        development - particularly with{' '}
-                                        <b>Python</b> and <b>Typescript</b>.{' '}
-                                        <b>ReactJS</b> is my frontend framework
-                                        of choice and I've worked in backend
-                                        with{' '}
-                                        <b>Java</b> and <b>Python</b>.
+                                    I have experience in full-stack web development, specializing in  <b>Python</b> and <b>Typescript</b> <b>ReactJS</b> is my preferred frontend framework, and I have worked on backend development using <b>Python</b> and <b>Java.</b>
                                     </Text>
                                 </Flex>
                             {/* </Fade> */}
@@ -89,8 +81,7 @@ const Aboutme: FC = () => {
                                 <Flex>
                                     <Center p={4}>🧠</Center>
                                     <Text>
-                                        I enjoy working on an array of different projects; related to working with LLMs. Additionally 
-                                        I've worked on some projects on my GitHub page. 
+                                    I enjoy working on a variety of projects, particularly those involving <b>LLMs.</b> Additionally, I have contributed to several projects showcased on my GitHub page.
                                     </Text>
                                 </Flex>
                                 </motion.div>
