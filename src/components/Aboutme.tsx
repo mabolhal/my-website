@@ -79,7 +79,7 @@ const Aboutme: FC = () => {
                             {/* </Fade> */}
                             {/* <Fade bottom cascade duration={500}> */}
                                 <Flex>
-                                    <Center p={4}>🧠</Center>
+                                    <Center p={4}>🤖</Center>
                                     <Text>
                                     I enjoy working on a variety of projects, particularly those involving <b>LLMs.</b> Additionally, I have contributed to several projects showcased on my GitHub page.
                                     </Text>
