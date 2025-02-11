@@ -70,3 +70,8 @@ export const SciKitLibBadge = () => {
 export const ChakraLibBadge = () => {
     return <Badge  my="1" fontSize="0.6em" variant="solid" colorScheme={'teal'}>Chakra UI</Badge>
 }
+
+export const FastAPILibBadge = () => {
+    return <Badge  my="1" fontSize="0.6em" variant="solid" colorScheme={'teal'}>FastAPI</Badge>
+}
+

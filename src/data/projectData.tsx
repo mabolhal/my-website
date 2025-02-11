@@ -13,7 +13,8 @@ import {
     BSLibBadge,
     ChakraLibBadge,
     SciKitLibBadge,
-    OpenAILibBadge
+    OpenAILibBadge,
+    FastAPILibBadge
 } from '../components/Projects/TechBadges'
 import { FiGithub, FiLink } from 'react-icons/fi'
 import { ProjectT } from './types'
@@ -39,6 +40,25 @@ export const projectData: ProjectT[] = [
             },
         ],
         headerLink: 'https://github.com/yourusername/chevu',
+    },
+    {
+        name: 'Grocery Deals; Save This Week',
+        id: 'gd',
+        type: 'Web app',
+        tagline: '',
+        tags: [
+            <PythonBadge />,
+            <FastAPILibBadge />,
+        ],
+        imageSrc: '',
+        description: 'FastAPI application that integrates with a Telegram AI bot to provide users stores near them that have the best deals for the week.',
+        links: [
+            {
+                link: 'https://github.com/mabolhal/grocery-deals',
+                icon: <FiGithub />,
+            },
+        ],
+        headerLink: 'https://github.com/mabolhal/grocery-deals',
     },
     {
         name: 'May the best woman win',
